@@ -1,17 +1,24 @@
-def sum_nums(nums):
-    """Given list of numbers, return sum of those numbers.
 
-    For example:
-      sum_nums([1, 2, 3, 4])
+def sum_nums (nums):
 
-    Should return (not print):
-      10
-    """  
+  """Given list of numbers, return sum of those numbers.
 
-    # Python has a built-in function `sum()` for this, but we don't
-    # want you to use it. Please write this by hand.
+  For example:
+  sum_nums([1, 2, 3, 4])
 
-    # YOUR CODE HERE
+  Should return (not print):
+  10
+  """ 
+
+  # Python has a built-in function `sum()` for this, but we don't
+  # want you to use it. Please write this by hand.
+
+  # YOUR CODE HERE
+
+  sum = 0
+  for num in nums:
+    sum = sum + num
+  return sum
 
 
 print("sum_nums returned", sum_nums([1, 2, 3, 4]))
